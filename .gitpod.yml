@@ -1,0 +1,4 @@
+tasks:
+    - before: ls
+      init: chmod +x setup
+      command: ./setup
